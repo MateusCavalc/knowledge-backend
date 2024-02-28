@@ -1,0 +1,7 @@
+[by mfc]
+
+1. Pull lastest postgres docker image
+$ docker pull postgres:latest
+
+2. Run docker-compose to boot up postgres instance.
+$ docker-compose up -d

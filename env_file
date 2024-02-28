@@ -1,0 +1,23 @@
+module.exports = {
+    authConfig: {
+        secret: '',
+        expirationTimeSeconds: 60
+    },
+    postgresConfig: {
+        database: '',
+        host: '',
+        port: '',
+        user: '',
+        password: ''
+    },
+    mongoConfig: {
+        database: '',
+        host: '',
+        port: '',
+        user: '',
+        password: ''
+    },
+    schedulerConfig: {
+        cron: '*/1 * * * *'
+    }
+}
